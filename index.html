@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSF Church — 20th Anniversary Celebration | November 8, 2026</title>
+  <meta name="description" content="Join CSF Church as we celebrate 20 years of God's faithfulness — Faith, Hope, Love, and Service. Anniversary celebration on Sunday, November 1, 2026 at 10:00 AM." />
+  <meta name="theme-color" content="#800020" />
+  <link rel="canonical" href="https://csfchurch.example.org/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="CSF Church — 20th Anniversary Celebration" />
+  <meta property="og:description" content="Celebrating 20 years of Faith, Hope, Love & Service. Join us Sunday, November 1, 2026 at 10:00 AM." />
+  <meta property="og:image" content="/img/hero-bg.png" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="alternate icon" href="/favicon.svg" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- ============ HEADER / NAV ============ -->
+  <header class="site-header" id="site-header">
+    <nav class="navbar" aria-label="Primary">
+      <a href="#hero" class="brand">
+        <span class="brand-badge" aria-hidden="true">20</span>
+        <span class="brand-name">CSF <em>Church</em></span>
+      </a>
+
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#hero" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#anniversary" class="nav-link">Anniversary</a></li>
+        <li><a href="#program" class="nav-link">Program</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#pastor" class="nav-link">Pastor's Message</a></li>
+        <li><a href="#contact" class="nav-link nav-link--cta">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ============ 1. HERO ============ -->
+    <section class="hero" id="hero">
+      <div class="hero-bg" style="background-image:url('/.netlify/images?url=/img/hero-bg.png&amp;w=1920&amp;fm=webp&amp;q=80')" role="img" aria-label="Warm, softly lit church sanctuary interior"></div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-ornament" aria-hidden="true">
+        <svg viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M2 30 Q 50 2, 100 30 Q 150 58, 198 30" stroke="#C9A227" stroke-width="1.5"/>
+          <circle cx="100" cy="30" r="4" fill="#C9A227"/>
+        </svg>
+      </div>
+
+      <div class="hero-content container">
+        <p class="eyebrow reveal">Twenty Years of Grace</p>
+        <h1 class="hero-title reveal">CSF <em>Church</em></h1>
+        <p class="hero-headline reveal">20<sup>th</sup> Anniversary Celebration</p>
+        <!-- [EDIT THIS] Replace with the specific Bible verse the church wants featured in the hero -->
+        <blockquote class="hero-verse reveal">
+          &ldquo;Give thanks to the LORD, for He is good; His love endures forever.&rdquo;
+          <cite>Psalm 136:1</cite>
+        </blockquote>
+
+        <div class="hero-actions reveal">
+          <a href="#program" class="btn btn-gold">View Celebration Details</a>
+          <a href="#contact" class="btn btn-outline">Join Us</a>
+        </div>
+      </div>
+
+      <div class="countdown-wrap">
+        <div class="container">
+          <p class="countdown-label">Counting down to Sunday, November 1, 2026 &middot; 10:00 AM</p>
+          <div class="countdown" id="countdown" aria-live="polite">
+            <div class="countdown-unit">
+              <span class="countdown-number" id="cd-days">00</span>
+              <span class="countdown-word">Days</span>
+            </div>
+            <div class="countdown-sep" aria-hidden="true">:</div>
+            <div class="countdown-unit">
+              <span class="countdown-number" id="cd-hours">00</span>
+              <span class="countdown-word">Hours</span>
+            </div>
+            <div class="countdown-sep" aria-hidden="true">:</div>
+            <div class="countdown-unit">
+              <span class="countdown-number" id="cd-minutes">00</span>
+              <span class="countdown-word">Minutes</span>
+            </div>
+            <div class="countdown-sep" aria-hidden="true">:</div>
+            <div class="countdown-unit">
+              <span class="countdown-number" id="cd-seconds">00</span>
+              <span class="countdown-word">Seconds</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-cue" aria-label="Scroll to About section">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- ============ 2. ABOUT ============ -->
+    <section class="about" id="about">
+      <div class="container">
+        <p class="section-kicker">Our Story</p>
+        <h2 class="section-title">Celebrating 20 Years of God&rsquo;s Faithfulness</h2>
+        <!-- [EDIT THIS] Replace with the church's real founding story / intro paragraph -->
+        <p class="section-lead">
+          For two decades, CSF Church has been a house of worship, refuge, and family for generations of
+          believers. What began as a small gathering of faithful hearts has grown into a thriving community
+          bound together by grace &mdash; and every step of the journey has borne witness to God&rsquo;s
+          unfailing faithfulness.
+        </p>
+
+        <div class="about-grid">
+          <article class="about-card">
+            <span class="about-index">01</span>
+            <h3>Our Journey</h3>
+            <!-- [EDIT THIS] Replace with the church's actual journey / history summary -->
+            <p>From humble beginnings in a rented hall to a beloved sanctuary of our own, our journey has been
+              shaped by prayer, perseverance, and the unwavering hand of God guiding every season.</p>
+          </article>
+
+          <article class="about-card about-card--offset">
+            <span class="about-index">02</span>
+            <h3>Our Mission</h3>
+            <!-- [EDIT THIS] Replace with the church's actual mission statement -->
+            <p>To make disciples of Christ, nurture faith through worship and fellowship, and serve our
+              community with the same love and compassion we have received.</p>
+          </article>
+
+          <article class="about-card">
+            <span class="about-index">03</span>
+            <h3>Our Vision</h3>
+            <!-- [EDIT THIS] Replace with the church's actual vision statement -->
+            <p>To raise a generation rooted in faith, marked by hope, moved by love, and devoted to service
+              &mdash; carrying the Gospel forward for the next twenty years and beyond.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 3. 20TH ANNIVERSARY ============ -->
+    <section class="anniversary" id="anniversary">
+      <div class="anniversary-pattern" aria-hidden="true"></div>
+      <div class="container anniversary-inner">
+        <p class="section-kicker section-kicker--light">A Milestone of Grace</p>
+        <div class="anniversary-big">
+          <span class="anniversary-laurel anniversary-laurel--left" aria-hidden="true">
+            <svg viewBox="0 0 80 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M70 10C40 30 20 70 25 150" stroke="#C9A227" stroke-width="2"/>
+              <path d="M25 30c-10 4-16 10-14 16s10 6 18 2" stroke="#C9A227" stroke-width="1.5"/>
+              <path d="M20 55c-10 3-17 9-16 15s10 7 19 3" stroke="#C9A227" stroke-width="1.5"/>
+              <path d="M18 80c-10 2-18 8-17 14s10 8 19 4" stroke="#C9A227" stroke-width="1.5"/>
+              <path d="M19 105c-9 2-17 8-16 14s10 7 18 3" stroke="#C9A227" stroke-width="1.5"/>
+              <path d="M22 128c-8 2-15 7-14 13s9 7 17 3" stroke="#C9A227" stroke-width="1.5"/>
+            </svg>
+          </span>
+          <span class="anniversary-number">20</span>
+          <span class="anniversary-laurel anniversary-laurel--right" aria-hidden="true">
+            <svg viewBox="0 0 80 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10 10C40 30 60 70 55 150" stroke="#C9A227" stroke-width="2"/>
+              <path d="M55 30c10 4 16 10 14 16s-10 6-18 2" stroke="#C9A227" stroke-width="1.5"/>
+              <path d="M60 55c10 3 17 9 16 15s-10 7-19 3" stroke="#C9A227" stroke-width="1.5"/>
+              <path d="M62 80c10 2 18 8 17 14s-10 8-19 4" stroke="#C9A227" stroke-width="1.5"/>
+              <path d="M61 105c9 2 17 8 16 14s-10 7-18 3" stroke="#C9A227" stroke-width="1.5"/>
+              <path d="M58 128c8 2 15 7 14 13s-9 7-17 3" stroke="#C9A227" stroke-width="1.5"/>
+            </svg>
+          </span>
+        </div>
+        <p class="anniversary-tagline">
+          <span>Faith</span><span aria-hidden="true">&bull;</span>
+          <span>Hope</span><span aria-hidden="true">&bull;</span>
+          <span>Love</span><span aria-hidden="true">&bull;</span>
+          <span>Service</span>
+        </p>
+        <p class="anniversary-sub">Twenty years of worship, twenty years of witness, and twenty years of a
+          faithful God who has never let us go.</p>
+      </div>
+    </section>
+
+    <!-- ============ 4. ANNIVERSARY PROGRAM ============ -->
+    <section class="program" id="program">
+      <div class="container">
+        <p class="section-kicker">Save the Date</p>
+        <h2 class="section-title">Anniversary Program</h2>
+        <p class="section-lead">
+          We invite you to join us for a full day of worship, celebration, and fellowship as we commemorate
+          this sacred milestone together.
+        </p>
+
+        <ol class="timeline">
+          <li class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <span class="timeline-time">Sunday, Nov 1, 2026</span>
+              <h3>Date</h3>
+              <!-- [EDIT THIS] Confirm final anniversary date -->
+              <p>The 20th Anniversary falls on the first Sunday of November &mdash; a day set apart for
+                thanksgiving.</p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <span class="timeline-time">10:00 AM</span>
+              <h3>Time</h3>
+              <!-- [EDIT THIS] Confirm start time and doors-open time -->
+              <p>Doors open at 9:30 AM. The celebration service begins promptly at 10:00 AM.</p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <span class="timeline-time">Main Sanctuary</span>
+              <h3>Venue</h3>
+              <!-- [EDIT THIS] Replace with the actual venue name and address -->
+              <p>CSF Church Main Sanctuary, 148 Faith Avenue &mdash; with overflow seating and live-stream
+                available.</p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <span class="timeline-time">10:00 AM &ndash; 11:15 AM</span>
+              <h3>Worship Service</h3>
+              <!-- [EDIT THIS] Replace with actual worship service details -->
+              <p>A time of praise, prayer, and the Word &mdash; led by our worship team and guest ministers.</p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <span class="timeline-time">11:15 AM &ndash; 12:30 PM</span>
+              <h3>Anniversary Celebration</h3>
+              <!-- [EDIT THIS] Replace with actual celebration program details -->
+              <p>Testimonies, tributes, and a look back at twenty years of God&rsquo;s faithfulness to our
+                church family.</p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <span class="timeline-time">12:30 PM &ndash; 1:15 PM</span>
+              <h3>Special Numbers</h3>
+              <!-- [EDIT THIS] Replace with actual performers / special numbers lineup -->
+              <p>Musical presentations, choir specials, and dance ministrations from our church families and
+                guests.</p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <span class="timeline-time">1:15 PM onward</span>
+              <h3>Fellowship &amp; Dinner</h3>
+              <!-- [EDIT THIS] Replace with actual fellowship / dinner venue details -->
+              <p>A festive meal and fellowship in the Church Hall &mdash; all guests and visitors warmly
+                welcome.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ 5. BIBLE VERSE ============ -->
+    <section class="verse-section">
+      <div class="container">
+        <svg class="verse-mark" width="52" height="40" viewBox="0 0 52 40" fill="none" aria-hidden="true">
+          <path d="M0 40C0 22 9 8 24 0l4 7c-9 5-14 12-14 19h14v14H0Zm28 0c0-18 9-32 24-40l4 7c-9 5-14 12-14 19h14v14H28Z" fill="#C9A227"/>
+        </svg>
+        <!-- [EDIT THIS] Replace with the anniversary theme verse chosen by the church -->
+        <p class="verse-text">
+          &ldquo;This is the day the LORD has made; let us rejoice and be glad in it.&rdquo;
+        </p>
+        <p class="verse-cite">Psalm 118:24</p>
+      </div>
+    </section>
+
+    <!-- ============ 6. PHOTO GALLERY ============ -->
+    <section class="gallery" id="gallery">
+      <div class="container">
+        <p class="section-kicker">Moments of Grace</p>
+        <h2 class="section-title">Photo Gallery</h2>
+        <!-- [EDIT THIS] Replace gallery images and captions with real church photos -->
+        <p class="section-lead">A glimpse into our church family &mdash; worship, fellowship, and life together
+          over the years.</p>
+
+        <div class="gallery-grid">
+          <button class="gallery-item gallery-item--wide" data-full="/.netlify/images?url=/img/gallery-3-worship.png&amp;w=1600&amp;fm=webp&amp;q=82" data-caption="Sunday worship, hearts lifted in praise">
+            <img src="/.netlify/images?url=/img/gallery-3-worship.png&amp;w=900&amp;fm=webp&amp;q=80" alt="Congregation worshiping with hands raised, backlit by warm golden light" loading="lazy" />
+            <span class="gallery-caption">Sunday Worship</span>
+          </button>
+          <button class="gallery-item" data-full="/.netlify/images?url=/img/gallery-1-candles.png&amp;w=1600&amp;fm=webp&amp;q=82" data-caption="Candles lit in remembrance and thanksgiving">
+            <img src="/.netlify/images?url=/img/gallery-1-candles.png&amp;w=700&amp;fm=webp&amp;q=80" alt="Lit candles with gold ribbon and burgundy flowers" loading="lazy" />
+            <span class="gallery-caption">Candlelight Thanksgiving</span>
+          </button>
+          <button class="gallery-item" data-full="/.netlify/images?url=/img/gallery-4-exterior.png&amp;w=1600&amp;fm=webp&amp;q=82" data-caption="Our church home, standing for two decades">
+            <img src="/.netlify/images?url=/img/gallery-4-exterior.png&amp;w=700&amp;fm=webp&amp;q=80" alt="Church exterior with steeple against a sunset sky" loading="lazy" />
+            <span class="gallery-caption">Our Church Home</span>
+          </button>
+          <button class="gallery-item" data-full="/.netlify/images?url=/img/gallery-2-bible.png&amp;w=1600&amp;fm=webp&amp;q=82" data-caption="The Word that has anchored us for 20 years">
+            <img src="/.netlify/images?url=/img/gallery-2-bible.png&amp;w=700&amp;fm=webp&amp;q=80" alt="Open Bible with a golden ribbon bookmark beside candlelight" loading="lazy" />
+            <span class="gallery-caption">Rooted in the Word</span>
+          </button>
+          <button class="gallery-item" data-full="/.netlify/images?url=/img/gallery-6-choir.png&amp;w=1600&amp;fm=webp&amp;q=82" data-caption="Voices raised in worship through the years">
+            <img src="/.netlify/images?url=/img/gallery-6-choir.png&amp;w=700&amp;fm=webp&amp;q=80" alt="Choir robe and trumpet resting beside hymn books" loading="lazy" />
+            <span class="gallery-caption">Music &amp; Song</span>
+          </button>
+          <button class="gallery-item gallery-item--wide" data-full="/.netlify/images?url=/img/gallery-5-fellowship.png&amp;w=1600&amp;fm=webp&amp;q=82" data-caption="Fellowship around the table, always">
+            <img src="/.netlify/images?url=/img/gallery-5-fellowship.png&amp;w=900&amp;fm=webp&amp;q=80" alt="Elegant banquet table set for a celebration dinner" loading="lazy" />
+            <span class="gallery-caption">Fellowship Table</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lightbox modal -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" hidden>
+      <button class="lightbox-close" id="lightbox-close" aria-label="Close photo viewer">&times;</button>
+      <button class="lightbox-nav lightbox-prev" id="lightbox-prev" aria-label="Previous photo">&#8249;</button>
+      <img class="lightbox-img" id="lightbox-img" src="" alt="" />
+      <button class="lightbox-nav lightbox-next" id="lightbox-next" aria-label="Next photo">&#8250;</button>
+      <p class="lightbox-caption" id="lightbox-caption"></p>
+    </div>
+
+    <!-- ============ 7. MESSAGE FROM THE PASTOR ============ -->
+    <section class="pastor" id="pastor">
+      <div class="container pastor-grid">
+        <div class="pastor-photo-wrap">
+          <!-- [EDIT THIS] Replace with an actual photo of the pastor -->
+          <div class="pastor-photo" role="img" aria-label="Portrait placeholder for the Senior Pastor">
+            <svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="38" r="18"/><path d="M18 90c2-20 16-32 32-32s30 12 32 32"/></svg>
+          </div>
+          <span class="pastor-frame-corner tl" aria-hidden="true"></span>
+          <span class="pastor-frame-corner br" aria-hidden="true"></span>
+        </div>
+
+        <div class="pastor-content">
+          <p class="section-kicker">A Word From Our Shepherd</p>
+          <h2 class="section-title">Message from the Pastor</h2>
+          <!-- [EDIT THIS] Replace with the pastor's actual anniversary message -->
+          <p class="pastor-message">
+            &ldquo;Twenty years ago, a small band of believers stepped out in faith, not knowing all that lay
+            ahead &mdash; only trusting the One who called us. Today, as we look back across two decades of
+            worship, trial, growth, and grace, my heart overflows with gratitude. This anniversary is not a
+            monument to what we have built, but a testimony to what God has done through an imperfect people
+            who simply said yes to Him. Thank you for being part of this family. Let us step into the next
+            twenty years with the same faith that carried us through the first.&rdquo;
+          </p>
+          <!-- [EDIT THIS] Replace with the pastor's actual name and title -->
+          <p class="pastor-signature">Rev. Dr. Samuel Okonkwo-Reyes<br /><span>Senior Pastor, CSF Church</span></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 8. CHURCH MEMORIES / TIMELINE ============ -->
+    <section class="memories" id="memories">
+      <div class="container">
+        <p class="section-kicker">Two Decades in Review</p>
+        <h2 class="section-title">Church Memories</h2>
+        <!-- [EDIT THIS] Replace milestones with the church's real historical highlights -->
+        <p class="section-lead">A look back at the milestones that shaped our first twenty years.</p>
+
+        <div class="memories-scroll">
+          <ol class="memories-track">
+            <li class="memory-card">
+              <span class="memory-year">Year 1 &middot; 2006</span>
+              <h3>A Humble Beginning</h3>
+              <p>CSF Church holds its first service in a rented community hall with just 32 members gathered
+                in faith.</p>
+            </li>
+            <li class="memory-card">
+              <span class="memory-year">Year 5 &middot; 2011</span>
+              <h3>Our First Home</h3>
+              <p>The congregation moves into its first permanent building after years of prayer and sacrificial
+                giving.</p>
+            </li>
+            <li class="memory-card">
+              <span class="memory-year">Year 8 &middot; 2014</span>
+              <h3>Growing Ministries</h3>
+              <p>Youth, children's, and outreach ministries are launched, expanding the church's reach across
+                the community.</p>
+            </li>
+            <li class="memory-card">
+              <span class="memory-year">Year 10 &middot; 2016</span>
+              <h3>A Decade of Grace</h3>
+              <p>The 10th anniversary is celebrated with over 400 members &mdash; ten times the founding
+                congregation.</p>
+            </li>
+            <li class="memory-card">
+              <span class="memory-year">Year 14 &middot; 2020</span>
+              <h3>Faith Through Trial</h3>
+              <p>The church family perseveres through a season of global uncertainty, sustaining online
+                worship and care for one another.</p>
+            </li>
+            <li class="memory-card">
+              <span class="memory-year">Year 17 &middot; 2023</span>
+              <h3>New Sanctuary Built</h3>
+              <p>A new, larger sanctuary is dedicated, built entirely through the generosity of the church
+                family.</p>
+            </li>
+            <li class="memory-card">
+              <span class="memory-year">Year 20 &middot; 2026</span>
+              <h3>Twenty Years of Faithfulness</h3>
+              <p>We gather to celebrate two decades of Faith, Hope, Love, and Service &mdash; and look ahead
+                to all that is still to come.</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 9. CALL TO ACTION ============ -->
+    <section class="cta">
+      <div class="cta-pattern" aria-hidden="true"></div>
+      <div class="container cta-inner">
+        <h2>Come and Celebrate God&rsquo;s Faithfulness With Us</h2>
+        <p>Whether you&rsquo;ve been part of our story from the beginning or you&rsquo;re joining us for the
+          first time, there is a seat for you at this celebration.</p>
+        <div class="cta-actions">
+          <a href="#contact" class="btn btn-cream">Get Directions</a>
+          <a href="#contact" class="btn btn-outline-light">Contact Us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 10. CONTACT / LOCATION ============ -->
+    <section class="contact" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <p class="section-kicker">We&rsquo;d Love to See You</p>
+          <h2 class="section-title">Visit &amp; Connect</h2>
+
+          <address>
+            <div class="contact-row">
+              <svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C7.6 2 4 5.6 4 10c0 6 8 12 8 12s8-6 8-12c0-4.4-3.6-8-8-8Zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6Z"/></svg>
+              <!-- [EDIT THIS] Replace with the church's real address -->
+              <span>148 Faith Avenue, Rivergate, TX 75001</span>
+            </div>
+            <div class="contact-row">
+              <svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.5 2.4.8 3.6.8.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.2c.6 0 1 .4 1 1 0 1.3.3 2.5.8 3.6.1.4 0 .8-.2 1L6.6 10.8Z"/></svg>
+              <!-- [EDIT THIS] Replace with the church's real phone number -->
+              <a href="tel:+639384410508">+639384410508</a>
+            </div>
+            <div class="contact-row">
+              <svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16c.6 0 1 .4 1 1v14c0 .6-.4 1-1 1H4c-.6 0-1-.4-1-1V5c0-.6.4-1 1-1Zm1 2.5V17h14V6.5l-6.4 4.8a1 1 0 0 1-1.2 0L5 6.5Zm.6-.5L12 10.2 18.4 6H5.6Z"/></svg>
+              <!-- [EDIT THIS] Replace with the church's real email address -->
+              <a href="mailto:info@csfchurch.org">info@csfchurch.org</a>
+            </div>
+            <div class="contact-row">
+              <svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 21v-7h2.4l.4-3H13.5V9c0-.9.2-1.5 1.6-1.5H16V5c-.5 0-1.7-.1-2.6-.1-2.6 0-4 1.6-4 4.3V11H7v3h2.4v7h4.1Z"/></svg>
+              <!-- [EDIT THIS] Replace with the church's real Facebook page URL -->
+              <a href="https://facebook.com/csfchurch" target="_blank" rel="noopener">facebook.com/csfchurch</a>
+            </div>
+          </address>
+
+          <p class="contact-note">
+            <!-- [EDIT THIS] Replace with actual service times -->
+            Sunday Worship: 10:00 AM &middot; Wednesday Bible Study: 6:30 PM
+          </p>
+        </div>
+
+        <div class="contact-map">
+          <!-- [EDIT THIS] Replace the map query with the church's real address for an accurate embed -->
+          <iframe
+            title="Map to CSF Church"
+            src="https://www.google.com/maps?q=148+Faith+Avenue,+Rivergate,+TX&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ 11. FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <span class="brand-name brand-name--footer">CSF <em>Church</em></span>
+        <p class="footer-tagline">20 Years of Faith &bull; Hope &bull; Love &bull; Service</p>
+      </div>
+
+      <nav class="footer-links" aria-label="Footer">
+        <a href="#about">About</a>
+        <a href="#program">Program</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <!-- [EDIT THIS] Replace with the church's real social media links -->
+      <div class="footer-social">
+        <a href="https://facebook.com/csfchurch" target="_blank" rel="noopener" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 21v-7h2.4l.4-3H13.5V9c0-.9.2-1.5 1.6-1.5H16V5c-.5 0-1.7-.1-2.6-.1-2.6 0-4 1.6-4 4.3V11H7v3h2.4v7h4.1Z"/></svg>
+        </a>
+        <a href="https://instagram.com/csfchurch" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8a5 5 0 0 1 5-5Zm0 2a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm4 3.3a4.7 4.7 0 1 1 0 9.4 4.7 4.7 0 0 1 0-9.4Zm0 2a2.7 2.7 0 1 0 0 5.4 2.7 2.7 0 0 0 0-5.4ZM17.2 6a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2Z"/></svg>
+        </a>
+        <a href="https://youtube.com/@csfchurch" target="_blank" rel="noopener" aria-label="YouTube">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.6 7.2s-.2-1.5-.8-2.1c-.8-.8-1.6-.8-2-.9C15.9 4 12 4 12 4h0s-3.9 0-6.8.2c-.4 0-1.2.1-2 .9-.6.6-.8 2.1-.8 2.1S2.2 9 2.2 10.8v1.5c0 1.8.2 3.6.2 3.6s.2 1.5.8 2.1c.8.8 1.8.8 2.3.9 1.6.2 6.5.2 6.5.2s3.9 0 6.8-.2c.4 0 1.2-.1 2-.9.6-.6.8-2.1.8-2.1s.2-1.8.2-3.6v-1.5c0-1.8-.2-3.6-.2-3.6ZM9.9 14.6V8.9l5.4 2.8-5.4 2.9Z"/></svg>
+        </a>
+        <a href="mailto:info@csfchurch.org" aria-label="Email">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16c.6 0 1 .4 1 1v14c0 .6-.4 1-1 1H4c-.6 0-1-.4-1-1V5c0-.6.4-1 1-1Zm1 2.5V17h14V6.5l-6.4 4.8a1 1 0 0 1-1.2 0L5 6.5Zm.6-.5L12 10.2 18.4 6H5.6Z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="footer-year"></span> CSF Church. All rights reserved.</p>
+      <!-- [EDIT THIS] Replace with the church's real legal / registration footer text if needed -->
+      <p class="footer-fine">Built with gratitude for twenty years of faithfulness.</p>
+    </div>
+  </footer>
+
+  <script src="/script.js"></script>
+</body>
+</html>
